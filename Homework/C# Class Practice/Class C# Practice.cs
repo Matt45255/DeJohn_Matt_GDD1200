@@ -84,7 +84,8 @@ public abstract class Player{
         //generating a new value for attack
         numGen = rnd.Next(new_Num_Base, new_Num_Range);
     }    
-    public abstract void specialattack();
+    //Lets both classes override this function to create a special attack
+    public abstract void specialAttack();
 }
 //this is the punchline to why we are studying this at all
 //inheritance is enormous in programming, why?
@@ -104,7 +105,7 @@ public class Fighter : Player{
         newNum(5, 20);
     }
    //Now in the fighter class, we can use a special attack
-    public override void specialattack(){
+    public override void specialAttack(){
         int newDamage = getNum()*2;
         setNum(newDamage);
     }
@@ -118,7 +119,7 @@ public class Wizard: Player{
         newNum(1, 40);
     }
        //Now in the wizard class, we can use a special attack
-    public override void specialattack(){
+    public override void specialAttack(){
         int newDamage = getNum()*2;
         setNum(newDamage);
     }
