@@ -1,0 +1,12 @@
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/bin/Debug/net10.0/ClassLibrary1.deps.json
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/bin/Debug/net10.0/ClassLibrary1.dll
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/bin/Debug/net10.0/ClassLibrary1.pdb
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ClassLibrary1.AssemblyInfoInputs.cache
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ClassLibrary1.AssemblyInfo.cs
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ClassLibrary1.csproj.CoreCompileInputs.cache
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ClassLibrary1.sourcelink.json
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ClassLibrary1.dll
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/refint/ClassLibrary1.dll
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ClassLibrary1.pdb
+/Users/matt/GitHub/DeJohn_Matt_GDD1200/Homework/ClassLibrary1/obj/Debug/net10.0/ref/ClassLibrary1.dll
