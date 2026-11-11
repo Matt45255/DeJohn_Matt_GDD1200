@@ -19,7 +19,7 @@ public class Game {
 
     
     //main is where everything begins, we should have minimal code here
-    //statis is big and scary because everything can see it, ensure
+    //static is big and scary because everything can see it, ensure
     //your function needs to be static otherwise it can cause
     //amazing and hilarious issues
     public static void Main(string[] args) {

@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     [Tooltip("Turn speed (degrees/sec).")]
     public float rotationSpeed = 120.0f;
+    public int hp = 5;
 
 //We have out rigidbody as a object so twe can call its methods and use its values, like transforms and stuff
 //Objects SHOULD be private
@@ -29,6 +30,11 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate() 
     {
+        if(hp <= 0)
+        {
+            Destroy(gameObject);
+            Application.Quit();
+        }
         //we can zero out vectors
         Vector2 moveInput = Vector2.zero;
 
@@ -55,4 +61,16 @@ public class PlayerController : MonoBehaviour
         Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
         rb.MoveRotation(rb.rotation * turnRotation);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Obstacle"))
+        {
+            hp -= 1;
+        }
+        if (other.CompareTag("Finish"))
+        {
+            Destroy(gameObject);
+            Application.Quit();
+        }
+        }
 }

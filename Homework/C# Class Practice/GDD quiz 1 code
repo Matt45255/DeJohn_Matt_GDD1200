@@ -1,0 +1,57 @@
+using System;
+//This is the class that contains the main method and the logic for the game
+public class Game{
+
+          public static void Main(string[] args){
+           
+         //This is the boolean that keeps the matches going until there is a winner  
+            bool isDraw = true;
+
+//This is the main loop that will keep running until there is a winner
+while(isDraw){
+            Player player1 = new Player();
+            Player player2 = new Player();
+            Game game = new Game();
+
+            isDraw = game.RockPaperScissors(player1, player2);
+            
+          }
+          }
+//This is the method that contains the logic for the game          
+ public bool RockPaperScissors(Player player1, Player player2){
+        if(player1.getNum() == player2.getNum()){
+            Console.WriteLine("It is a draw, Let's go again");
+            return true;
+        }
+        else if(player1.getNum() == 0 && player2.getNum() == 2){
+            Console.WriteLine("Player 1 wins");
+            return false;
+        }
+        else if(player1.getNum() == 1 && player2.getNum() == 0){
+            Console.WriteLine("Player 1 wins");
+            return false;
+        }
+        else if(player1.getNum() == 2 && player2.getNum() == 1){
+            Console.WriteLine("Player 1 wins");
+            return false;
+        }
+         else {
+            Console.WriteLine("Player 2 wins");
+            return false;
+          } 
+
+}
+
+//This is the class that represents a player in the game,
+//Made so we can create new instances easier
+public class Player{
+//This is the random number generator
+ public static Random rnd = new Random();
+private int numGen = rnd.Next(0, 3); //0 = Rock, 1 = Paper, 2 = Scissors
+
+public int getNum(){
+    return numGen;
+}
+
+}
+}
